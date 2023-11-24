@@ -137,3 +137,29 @@ main{
     justify-content: space-between;
     color: #551a8b;
 }
+.previous_parent{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.previous_parent h3{
+    background-color: green;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.previous_parent h3:hover{
+    background-color: aquamarine;
+}
+.previous_parent a{
+    text-decoration: none;
+}
+.previous_parent div a{
+    margin: 0 5px;
+    background-color: gray;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.previous_parent div a:first-child{
+    background-color: green;
+}
