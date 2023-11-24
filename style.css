@@ -8,6 +8,10 @@ nav{
     background-color: antiquewhite;
     padding: 10px 50px;
     text-align: center;
+    border-bottom: 1.5px solid gray;
+}
+nav div{
+    color: #551a8b;
 }
 nav ul{
     display: flex;
@@ -25,4 +29,46 @@ nav ul li a:hover{
     background-color: gray;
     color: white;
     border-radius: 5px;
+}
+
+/* hero area code start  */
+header{
+    background-image: url(img/Free-Nature-Backgrounds-Sunset-by-Pixabay.jpg);
+    padding: 210px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.searchBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchIcon{
+    color: red;
+    background-color: antiquewhite;
+    font-size: 15px;
+    padding: 5px 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    /* height: 20px;
+    width: 30px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    cursor: pointer;
+    margin-left: -1px;
+    border-left: 0.25px solid gray;
+}
+.searchBox input{
+    /* width: 200px;
+    height: 20px; */
+    padding: 5px 15px;
+    border-radius: 2px;
+    font-size: 15px;
+    padding: 5px 15px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: 1px solid gray;
 }
