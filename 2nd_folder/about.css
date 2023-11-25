@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#main{
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+    height: 500px;
+    border: 3px solid red;
+    padding: 20px;
+}
+.div_text h2{
+    font-size: 30px;
+    color: lightgreen;
+
+
+}
+.div_img{
+    height: 300px;
+    width: 300px;
+  
+}
+.div_img img{
+    height: 100%;
+    width: 100%;
+   
+}
